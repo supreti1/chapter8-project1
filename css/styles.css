@@ -1,0 +1,41 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f4f9;
+  margin: 40px;
+}
+
+.table-fill {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  background: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.table-fill th,
+.table-fill td {
+  padding: 12px 15px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.table-fill thead {
+  background-color: #2c3e50;
+  color: white;
+}
+
+.table-fill img {
+  width: 80px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.totals td {
+  font-weight: bold;
+  background-color: #ecf0f1;
+}
+
+.focus {
+  color: #e74c3c;
+  font-size: 1.2em;
+}
